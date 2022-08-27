@@ -1,0 +1,28 @@
+.boton-contenedor{
+    height: 60px;
+    display: flex;
+    flex: 1 1; /*divide botones en el espacio disp*/
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-size: 38px;
+    background-color: #7973ea;
+    color: white;
+    border-radius: 25px;
+    border: 2px solid white;
+    margin: 4px;
+    cursor: pointer; /*cursor en forma de mano sobre el boton*/
+    user-select: none; /*para que el txt no se pueda seleccionar*/
+}
+
+.boton-contenedor:hover{
+    background-color: #5a01a7;
+}
+
+.operador {
+    background-color: #48c578;
+}
+
+.operador:hover {
+    background-color: #169e75;
+}
